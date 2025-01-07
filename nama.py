@@ -1,0 +1,3 @@
+nama = "Desthrie"
+
+print(nama)
