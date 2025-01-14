@@ -41,7 +41,7 @@ jobs:
       - name : jalankan file python
         run : python nama.py
 
-      - name : Secret Variable
+      - name : Secret Variables
         run: echo ${{secret,NAMA_LENGKAP}}
 
       - name: Install Libary
