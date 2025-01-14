@@ -42,7 +42,7 @@ jobs:
         run : python nama.py
 
       - name : Secret Variable
-        run: echo ${{secret.NAMA_LENGKAP}}
+        run: echo ${{secret,NAMA_LENGKAP}}
 
       - name: Install Libary
         run: pip install python-dotenv
